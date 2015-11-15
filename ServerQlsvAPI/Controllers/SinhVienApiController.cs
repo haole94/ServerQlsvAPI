@@ -97,7 +97,7 @@ namespace ServerQlsvAPI.Controllers
 
             sv.HoTen = newInfo.HoTen;
             sv.NgaySinh = newInfo.NgaySinh;
-            sv.SoDienThoai = newInfo.NgaySinh;
+            sv.SoDienThoai = newInfo.SoDienThoai;
             sv.DiemTichLuy = newInfo.DiemTichLuy;
 
             int result = ctx.SaveChanges();
